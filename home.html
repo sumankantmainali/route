@@ -1,0 +1,41 @@
+
+<div class="container" ng-controller="homeCtrl">
+	<div ng-hide="homediv1">
+
+		<h1 style="color: red">What Is Your Name ?</h1>
+		<input type="text" ng-model="mytext">
+		<button button ng-click="button1()" class="btn btn-success">OK</button>
+	</div>
+
+	<div ng-hide="homediv2">
+
+			<p>Hello &nbsp;{{mytext}} Good</p>
+
+
+		<nav class="navbar navbar-inverse navbar-fixed-bottom">
+
+			<ul class="nav navbar-nav navbar-inverse">
+				<li class="active"><a href='#bio'>Biography</a></li>
+				<li class="active"><a href='#contact'>Contact Us</a></li>
+
+			</ul>
+		</nav>
+
+
+
+
+	</div>
+
+
+</div>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+
+	<ul class="nav navbar-nav navbar-inverse">
+		<li class="active"><a href='#bio'>Biography</a></li>
+		<li class="active"><a href='#contact'>Contact Us</a></li>
+
+	</ul>
+</nav>
+
